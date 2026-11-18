@@ -1,0 +1,44 @@
+/* Reset básico do projeto */
+/* Justificativa: reset mínimo para consistência entre navegadores. */
+*,
+*::before,
+*::after {
+  /* box-sizing global exigido: inclui padding e border no cálculo total */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 1rem = 16px por padrão; facilita conversões e acessibilidade de zoom */
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+a {
+  color: inherit;
+}
