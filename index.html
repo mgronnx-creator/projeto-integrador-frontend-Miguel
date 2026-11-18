@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retroniva — Loja de Games Retrô</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <div class="header-inner">
+      <a href="#inicio" class="brand" aria-label="Ir para o início">
+        <img src="assets/images/logo-retroniva.png" alt="Logotipo da loja Retroniva" width="72" height="72">
+        <span class="brand-name">Retroniva</span>
+      </a>
+
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu de navegação">
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <ul class="nav-list" id="menu-principal">
+          <li><a href="#inicio" class="nav-link ativo">Início</a></li>
+          <li class="has-dropdown">
+            <a href="#produtos" class="nav-link">Produtos</a>
+            <ul class="dropdown" aria-label="Submenu de produtos">
+              <li><a href="#produtos" class="nav-link">Consoles</a></li>
+              <li><a href="#produtos" class="nav-link">Portáteis</a></li>
+              <li><a href="#produtos" class="nav-link">Cartuchos</a></li>
+            </ul>
+          </li>
+          <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="hero-content">
+        <h1 id="titulo-principal">Retroniva</h1>
+        <p class="hero-text">A Retroniva é uma loja dedicada a reunir consoles, portáteis e acessórios que marcaram gerações. Nosso objetivo é conectar fãs de jogos clássicos a produtos selecionados, com informação clara, curadoria e nostalgia para colecionadores e novos jogadores.</p>
+        <ul class="hero-lista">
+          <li>Curadoria de consoles e jogos clássicos em bom estado.</li>
+          <li>Atendimento para colecionadores, presenteadores e entusiastas.</li>
+          <li>Informações transparentes sobre preços, plataforma e disponibilidade.</li>
+        </ul>
+        <div class="hero-acoes">
+          <a href="#catalogo" class="btn btn-primary">Explorar catálogo</a>
+          <a href="https://pt.wikipedia.org/wiki/Retrogaming" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Saiba mais sobre retrogaming</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="produtos" aria-labelledby="titulo-produtos">
+      <h2 id="titulo-produtos" class="titulo-secao">Destaques da coleção</h2>
+      <p class="secao-descricao">Conheça alguns itens em destaque e compare informações na tabela de referência.</p>
+
+      <div class="galeria-grid">
+        <article class="card-produto">
+          <img src="assets/images/produto-r36s.jpeg" alt="Console portátil retrô R36S na cor branca">
+          <h3>R36S Portátil</h3>
+          <p>Portátil compacto para clássicos de GBA, PS1, SNES e arcade.</p>
+        </article>
+        <article class="card-produto">
+          <img src="assets/images/produto-ps2.jpeg" alt="Console PlayStation 2 preto com controle">
+          <h3>PlayStation 2</h3>
+          <p>Console de mesa com biblioteca vasta para reviver clássicos.</p>
+        </article>
+        <article class="card-produto">
+          <img src="assets/images/produto-xbox360.jpeg" alt="Console Xbox 360 com dois controles e sensor Kinect">
+          <h3>Xbox 360 + Kinect</h3>
+          <p>Kit completo para jogos multiplayer e experiências com movimento.</p>
+        </article>
+        <article class="card-produto">
+          <img src="assets/images/produto-snes.jpeg" alt="Console Super Nintendo com controles cinza">
+          <h3>Super Nintendo</h3>
+          <p>Ícone dos 16-bits para aventuras, plataforma e partidas locais.</p>
+        </article>
+        <article class="card-produto">
+          <img src="assets/images/produto-cartucho.jpeg" alt="Cartucho multicartucho 900 em 1 para console retrô">
+          <h3>Cartucho 900 em 1</h3>
+          <p>Seleção de jogos em um único cartucho para sessões nostálgicas.</p>
+        </article>
+        <article class="card-produto">
+          <img src="assets/images/produto-extra.jpg" alt="Acessório e itens retrô organizados em exposição">
+          <h3>Acessórios retrô</h3>
+          <p>Cabos, controles e complementos para manter sua coleção ativa.</p>
+        </article>
+      </div>
+
+      <div class="tabela-wrapper">
+        <h3 class="subtitulo-secao">Tabela de referência</h3>
+        <table class="tabela-produtos">
+          <caption>Produtos em destaque da Retroniva</caption>
+          <thead>
+            <tr>
+              <th scope="col">Produto</th>
+              <th scope="col">Plataforma</th>
+              <th scope="col">Condição</th>
+              <th scope="col">Preço (R$)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>R36S</td>
+              <td>Portátil</td>
+              <td>Seminovo</td>
+              <td>299,90</td>
+            </tr>
+            <tr>
+              <td>PlayStation 2</td>
+              <td>Console de mesa</td>
+              <td>Usado</td>
+              <td>549,90</td>
+            </tr>
+            <tr>
+              <td>Xbox 360 + Kinect</td>
+              <td>Console de mesa</td>
+              <td>Usado</td>
+              <td>899,90</td>
+            </tr>
+            <tr>
+              <td>Super Nintendo</td>
+              <td>Console de mesa</td>
+              <td>Revisado</td>
+              <td>599,90</td>
+            </tr>
+            <tr>
+              <td>Cartucho 900 em 1</td>
+              <td>Cartucho</td>
+              <td>Novo</td>
+              <td>129,90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="secao secao-midia" id="midia" aria-labelledby="titulo-midia">
+      <h2 id="titulo-midia" class="titulo-secao">Mídia e gráfico</h2>
+      <div class="midia-grid">
+        <article class="bloco-midia">
+          <h3>Áudio retrô</h3>
+          <!-- preload="metadata" justificado: carrega apenas metadados para economizar dados, pois o áudio é opcional e curto. -->
+          <audio controls preload="metadata">
+            <source src="assets/audio/efeito-retro.wav" type="audio/wav">
+            <source src="assets/audio/efeito-retro.au" type="audio/basic">
+            <track kind="captions" src="assets/audio/efeito-retro.vtt" srclang="pt-BR" label="Português (descrição)">
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+          <p class="legenda-midia">Efeito sonoro curto com legendas descritivas para contexto.</p>
+        </article>
+
+        <article class="bloco-midia">
+          <h3>Popularidade por plataforma (SVG)</h3>
+          <svg class="grafico-svg" viewBox="0 0 320 180" role="img" aria-labelledby="svg-title svg-desc" preserveAspectRatio="xMidYMid meet">
+            <title id="svg-title">Gráfico de interesse por plataforma</title>
+            <desc id="svg-desc">Barras representando interesse: Portáteis 70, Mesa 90, Cartuchos 50.</desc>
+            <rect x="0" y="0" width="320" height="180" fill="#10162a" rx="8"></rect>
+            <line x1="30" y1="150" x2="300" y2="150" stroke="#9fb3ff" stroke-width="2"></line>
+            <rect x="50" y="80" width="50" height="70" fill="#4cc9f0"></rect>
+            <rect x="135" y="60" width="50" height="90" fill="#4361ee"></rect>
+            <rect x="220" y="100" width="50" height="50" fill="#f72585"></rect>
+            <text x="75" y="168" text-anchor="middle" fill="#e8ecff" font-size="12">Portáteis</text>
+            <text x="160" y="168" text-anchor="middle" fill="#e8ecff" font-size="12">Mesa</text>
+            <text x="245" y="168" text-anchor="middle" fill="#e8ecff" font-size="12">Cartuchos</text>
+          </svg>
+        </article>
+
+        <article class="bloco-midia">
+          <h3>Indicador de nostalgia (Canvas)</h3>
+          <canvas id="grafico-canvas" class="grafico-canvas" width="320" height="180">
+            Seu navegador não suporta Canvas. Indicador animado de nostalgia da coleção Retroniva.
+          </canvas>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao" id="catalogo" aria-labelledby="titulo-catalogo">
+      <h2 id="titulo-catalogo" class="titulo-secao">Catálogo interativo</h2>
+      <p class="secao-descricao">Filtre os itens, marque favoritos e acompanhe o resumo atualizado em tempo real.</p>
+
+      <div class="controles-catalogo">
+        <label for="busca-catalogo" class="label-busca">Buscar por nome ou plataforma</label>
+        <input type="text" id="busca-catalogo" name="busca-catalogo" placeholder="Ex.: Nintendo, portátil, cartucho">
+
+        <button type="button" id="btn-destaques" class="btn btn-secondary" aria-pressed="false">Mostrar apenas destaques</button>
+      </div>
+
+      <p id="resumo-catalogo" class="resumo-catalogo" aria-live="polite"></p>
+      <ul id="lista-catalogo" class="lista-catalogo" aria-label="Lista de itens do catálogo"></ul>
+    </section>
+
+    <section class="secao" id="contato" aria-labelledby="titulo-contato">
+      <h2 id="titulo-contato" class="titulo-secao">Contato e interesse</h2>
+      <p class="secao-descricao">Envie uma mensagem para consultar disponibilidade ou reservar um item.</p>
+
+      <form id="form-contato" class="form-contato" action="#" method="post">
+        <fieldset>
+          <legend>Seus dados e interesse</legend>
+
+          <div class="campo-form">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" required minlength="3">
+          </div>
+
+          <div class="campo-form">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="campo-form">
+            <label for="telefone">Telefone (formato 11 99999-9999)</label>
+            <input type="tel" id="telefone" name="telefone" pattern="^\d{2}\s?\d{4,5}-?\d{4}$" placeholder="11 99999-9999">
+          </div>
+
+          <div class="campo-form">
+            <label for="quantidade">Quantidade desejada</label>
+            <input type="number" id="quantidade" name="quantidade" min="1" max="10" value="1">
+          </div>
+
+          <div class="campo-form campo-form-full">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Conte qual produto você procura"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar interesse</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Retroniva. Projeto integrador de desenvolvimento front-end para web.</p>
+    <p><a href="#topo" class="link-footer">Voltar ao topo</a></p>
+  </footer>
+</body>
+</html>
