@@ -77,6 +77,6 @@
 | **2.4 Integração do script** | `index.html`: `<script src="js/script.js" defer></script>` ao final do `<body>`; arquivo único e organizado `js/script.js`. |
 
 ## 7. Autor
-- **Nome:** [Seu Nome]
-- **RGM:** [Seu RGM]
-- **Curso:** [Seu Curso]
+- **Nome:** Luiz Miguel Gomes Silva
+- **RGM:** 47861029
+- **Curso:** Superior de Tecnologia em Análise e Desenvolvimento de Sistemas
