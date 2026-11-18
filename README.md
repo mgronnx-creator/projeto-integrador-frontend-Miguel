@@ -11,16 +11,7 @@
 - Canvas API
 - WebVTT (legendas/descrição de áudio)
 
-## 3. Capturas de tela
-### Desktop
-![Captura da página em desktop](assets/images/screenshot-desktop.png)
-
-### Celular
-![Captura da página em celular](assets/images/screenshot-mobile.png)
-
-> Observação: substitua os arquivos de captura em `assets/images/screenshot-desktop.png` e `assets/images/screenshot-mobile.png` por prints reais da página antes da entrega final.
-
-## 4. Estrutura de pastas
+## 3. Estrutura de pastas
 ```text
 .
 ├── index.html
@@ -43,17 +34,15 @@
         ├── produto-ps2.jpeg
         ├── produto-r36s.jpeg
         ├── produto-snes.jpeg
-        ├── produto-xbox360.jpeg
-        ├── screenshot-desktop.png
-        └── screenshot-mobile.png
+        └── produto-xbox360.jpeg
 ```
 
-## 5. Como executar
+## 4. Como executar
 1. Clone o repositório em uma pasta local.
 2. Abra o arquivo `index.html` diretamente no navegador, **ou** utilize a extensão Live Server no VS Code.
 3. Verifique no DevTools (aba Console e Network) que não há erros e que os recursos carregam corretamente.
 
-## 6. Mapa dos requisitos
+## 5. Mapa dos requisitos
 
 | Requisito (Seção 2) | Atendimento (arquivo / seção / função) |
 | --- | --- |
